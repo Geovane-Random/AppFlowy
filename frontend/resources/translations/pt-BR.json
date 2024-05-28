@@ -9,6 +9,7 @@
   "title": "Título",
   "youCanAlso": "Você também pode",
   "and": "e",
+  "failedToOpenUrl": "Falha ao abrir o link",
   "blockActions": {
     "addBelowTooltip": "Clique para adicionar abaixo",
     "addAboveCmd": "Alt+clique",
@@ -41,11 +42,29 @@
     "emailHint": "E-mail",
     "passwordHint": "Senha",
     "dontHaveAnAccount": "Não possui uma conta?",
+    "createAccount": "Criar conta",
     "repeatPasswordEmptyError": "Senha não pode estar em branco.",
     "unmatchedPasswordError": "As senhas não conferem.",
     "syncPromptMessage": "A sincronização dos dados pode demorar um pouco. Por favor não feche esta página",
     "or": "OU",
+    "signInWithGoogle": "Faça login com o Google",
+    "signInWithGithub": "Faça login com o Github",
+    "signInWithDiscord": "Faça login com o Discord",
+    "signUpWithGoogle": "Inscrever-se com o Google",
+    "signUpWithGithub": "Inscreva-se com o Github",
+    "signUpWithDiscord": "Inscreva-se com o Discord",
     "signInWith": "Entrar com:",
+    "signInWithEmail": "Faça login com e-mail",
+    "signInWithMagicLink": "Faça login com Magic Link",
+    "signUpWithMagicLink": "Inscreva-se com Magic Link",
+    "pleaseInputYourEmail": "Por favor, digite o seu endereço de e-mail",
+    "settings": "Configurações",
+    "magicLinkSent": "Enviamos por e-mail um link mágico. Clique no link para fazer login.",
+    "invalidEmail": "Por favor insira um endereço de e-mail válido",
+    "alreadyHaveAnAccount": "Já tem uma conta?",
+    "logIn": "Conecte-se",
+    "generalError": "Algo deu errado. Por favor, tente novamente mais tarde",
+    "limitRateError": "Por motivos de segurança, você só pode solicitar um link mágico a cada 60 segundos",
     "LogInWithGoogle": "Entrar com o Google",
     "LogInWithGithub": "Entrar com o Github",
     "LogInWithDiscord": "Entrar com o Discord",
@@ -55,19 +74,41 @@
     "chooseWorkspace": "Escolha seu espaço de trabalho",
     "create": "Crie um espaço de trabalho",
     "reset": "Redefinir espaço de trabalho",
+    "renameWorkspace": "Renomear espaço de trabalho",
     "resetWorkspacePrompt": "A redefinição do espaço de trabalho excluirá todas as páginas e dados contidos nele. Tem certeza de que deseja redefinir o espaço de trabalho? Alternativamente, você pode entrar em contato com a equipe de suporte para restaurar o espaço de trabalho",
     "hint": "Espaço de trabalho",
     "notFoundError": "Espaço de trabalho não encontrado",
     "failedToLoad": "Algo deu errado! Falha ao carregar o espaço de trabalho. Tente fechar qualquer instância aberta do @:appName e tente novamente.",
     "errorActions": {
       "reportIssue": "Reporte um problema",
+      "reportIssueOnGithub": "Relate um problema no Github",
+      "exportLogFiles": "Exportar arquivos de log",
       "reachOut": "Entre em contato no Discord"
-    }
+    },
+    "menuTitle": "Espaços de trabalho",
+    "deleteWorkspaceHintText": "Tem certeza de que deseja excluir o espaço de trabalho? Essa ação não pode ser desfeita.",
+    "createSuccess": "Espaço de trabalho criado com sucesso",
+    "createFailed": "Falha ao criar espaço de trabalho",
+    "createLimitExceeded": "Você atingiu o limite máximo de espaço de trabalho permitido para sua conta. Se você precisar de espaços de trabalho adicionais para continuar seu trabalho, solicite no Github",
+    "deleteSuccess": "Espaço de trabalho excluído com sucesso",
+    "deleteFailed": "Falha ao excluir o espaço de trabalho",
+    "openSuccess": "Espaço de trabalho aberto com sucesso",
+    "openFailed": "Falha ao abrir o espaço de trabalho",
+    "renameSuccess": "Espaço de trabalho renomeado com sucesso",
+    "renameFailed": "Falha ao renomear o espaço de trabalho",
+    "updateIconSuccess": "Ícone do espaço de trabalho atualizado com sucesso",
+    "updateIconFailed": "Falha ao atualizar o ícone do espaço de trabalho",
+    "cannotDeleteTheOnlyWorkspace": "Não é possível excluir o seu único espaço de trabalho",
+    "fetchWorkspacesFailed": "Falha ao buscar espaços de trabalho",
+    "leaveCurrentWorkspace": "Sair do espaço de trabalho",
+    "leaveCurrentWorkspacePrompt": "Tem certeza de que deseja sair do espaço de trabalho atual?"
   },
   "shareAction": {
     "buttonText": "Compartilhar",
     "workInProgress": "Em breve",
     "markdown": "Marcador",
+    "html": "HTML",
+    "clipboard": "Copiar para área de transferência",
     "csv": "CSV",
     "copyLink": "Copiar link"
   },
@@ -77,7 +118,12 @@
     "large": "grande",
     "fontSize": "Tamanho da fonte",
     "import": "Importar",
-    "moreOptions": "Mais opções"
+    "moreOptions": "Mais opções",
+    "wordCount": "Contagem de palavras: {}",
+    "charCount": "Contador de caracteres: {}",
+    "createdAt": "Criada: {}",
+    "deleteView": "Excluir",
+    "duplicateView": "Duplicado"
   },
   "importPanel": {
     "textAndMarkdown": "Texto e Remarcação",
@@ -95,7 +141,9 @@
     "openNewTab": "Abrir em uma nova guia",
     "moveTo": "Mover para",
     "addToFavorites": "Adicionar aos favoritos",
-    "copyLink": "Copiar link"
+    "copyLink": "Copiar link",
+    "changeIcon": "Alterar ícone",
+    "collapseAllPages": "Recolher todas as páginas"
   },
   "blankPageTitle": "Página em branco",
   "newPageText": "Nova página",
@@ -126,7 +174,8 @@
       "emptyDescription": "Você não tem nenhum arquivo excluído",
       "isDeleted": "foi deletado",
       "isRestored": "foi restaurado"
-    }
+    },
+    "confirmDeleteTitle": "Tem certeza de que deseja excluir esta página permanentemente?"
   },
   "deletePagePrompt": {
     "text": "Está página está na lixeira",
@@ -180,17 +229,27 @@
     "dragRow": "Pressione e segure para reordenar a linha",
     "viewDataBase": "Visualizar banco de dados",
     "referencePage": "Esta {name} é uma referência",
-    "addBlockBelow": "Adicione um bloco abaixo"
+    "addBlockBelow": "Adicione um bloco abaixo",
+    "genSummary": "Gerar resumo"
   },
   "sideBar": {
     "closeSidebar": "Fechar barra lateral",
     "openSidebar": "Abrir barra lateral",
     "personal": "Pessoal",
+    "private": "Privado",
+    "workspace": "Espaço de trabalho",
     "favorites": "Favoritos",
+    "clickToHidePrivate": "Clique para ocultar o espaço privado\nAs páginas que você criou aqui só ficam visíveis para você",
+    "clickToHideWorkspace": "Clique para ocultar o espaço de trabalho\nAs páginas que você criou aqui são visíveis para todos os membros",
     "clickToHidePersonal": "Clique para ocultar a seção pessoal",
     "clickToHideFavorites": "Clique para ocultar a seção favorita",
     "addAPage": "Adicionar uma página",
-    "recent": "Recentes"
+    "addAPageToPrivate": "Adicione uma página ao espaço privado",
+    "addAPageToWorkspace": "Adicionar uma página ao espaço de trabalho",
+    "recent": "Recentes",
+    "today": "Hoje",
+    "thisWeek": "Essa semana",
+    "others": "Outros"
   },
   "notifications": {
     "export": {
@@ -206,6 +265,7 @@
   },
   "button": {
     "ok": "OK",
+    "confirm": "confirmar",
     "done": "Feito",
     "cancel": "Cancelar",
     "signIn": "Conectar",
@@ -233,6 +293,19 @@
     "helpCenter": "Central de Ajuda",
     "add": "Adicionar",
     "yes": "Sim",
+    "clear": "Limpar",
+    "remove": "Remover",
+    "dontRemove": "Não remover",
+    "copyLink": "Copiar Link",
+    "align": "Alinhar",
+    "login": "Conectar",
+    "logout": "Sair",
+    "deleteAccount": "Deletar conta",
+    "back": "Voltar",
+    "signInGoogle": "Fazer login com o Google",
+    "signInGithub": "Fazer login com o Github",
+    "signInDiscord": "Fazer login com o Discord",
+    "more": "Mais",
     "tryAGain": "Tentar novamente"
   },
   "label": {
@@ -257,6 +330,43 @@
   },
   "settings": {
     "title": "Configurações",
+    "accountPage": {
+      "menuLabel": "Minha conta",
+      "title": "Minha conta",
+      "description": "Personalize seu perfil, gerencie a segurança da conta e as chaves da API de IA, ou faça login em sua conta.",
+      "general": {
+        "title": "Nome da conta e imagem do perfil",
+        "changeProfilePicture": "Alterar foto do perfil"
+      },
+      "email": {
+        "title": "E-mail",
+        "actions": {
+          "change": "Mude o e-mail"
+        }
+      },
+      "keys": {
+        "title": "Chaves de API de IA",
+        "openAILabel": "Chave de API OpenAI",
+        "openAITooltip": "A chave da API OpenAI a ser usada para os modelos de IA",
+        "openAIHint": "Insira sua chave de API OpenAI",
+        "stabilityAILabel": "Chave API de estabilidade",
+        "stabilityAITooltip": "A chave da API Stability a ser usada para os modelos de IA",
+        "stabilityAIHint": "Insira sua chave de API de estabilidade"
+      },
+      "login": {
+        "title": "Login da conta",
+        "loginLabel": "Conecte-se",
+        "logoutLabel": "Sair"
+      }
+    },
+    "workspacePage": {
+      "menuLabel": "Espaço de trabalho",
+      "title": "Espaço de trabalho",
+      "description": "Personalize a aparência, o tema, a fonte, o layout do texto, o formato de data/hora e o idioma do seu espaço de trabalho.",
+      "workspaceName": {
+        "title": "Nome do espaço de trabalho"
+      }
+    },
     "menu": {
       "appearance": "Aparência",
       "language": "Idioma",
@@ -1218,5 +1328,22 @@
     "date": "Data",
     "addField": "Adicionar campo",
     "userIcon": "Ícone do usuário"
+  },
+  "newSettings": {
+    "workplace": {
+      "appearance": {
+        "language": "Linguagem"
+      }
+    },
+    "syncState": {
+      "syncing": "Sincronizando",
+      "synced": "Sincronizado",
+      "noNetworkConnected": "Nenhuma rede conectada"
+    }
+  },
+  "pageStyle": {
+    "title": "Estilo de página",
+    "layout": "Disposição dos elementos na tela",
+    "coverImage": "Imagem de capa"
   }
 }
