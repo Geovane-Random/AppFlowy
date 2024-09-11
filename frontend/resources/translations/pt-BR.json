@@ -365,6 +365,9 @@
       "description": "Personalize a aparência, o tema, a fonte, o layout do texto, o formato de data/hora e o idioma do seu espaço de trabalho.",
       "workspaceName": {
         "title": "Nome do espaço de trabalho"
+      },
+      "manageWorkspace": {
+        "leaveWorkspace": "Abandonar espaço de trabalho"
       }
     },
     "menu": {
