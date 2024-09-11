@@ -371,7 +371,8 @@
         "content": "Tem certeza de que deseja sair deste espaço de trabalho? Você perderá o acesso a todas as páginas e dados dentro dele."
       },
       "manageWorkspace": {
-        "leaveWorkspace": "Abandonar espaço de trabalho"
+        "leaveWorkspace": "Abandonar espaço de trabalho",
+        "deleteWorkspace": "Excluir espaço de trabalho"
       }
     },
     "menu": {
