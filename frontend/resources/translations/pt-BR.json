@@ -782,13 +782,20 @@
       "launch": "Abrir com o navegador",
       "copy": "Copiar URL"
     },
+    "relation": {
+      "emptySearchResult": "Nenhum registro encontrado"
+    },
     "menuName": "Grade",
-    "referencedGridPrefix": "Vista de"
+    "referencedGridPrefix": "Vista de",
+    "calculate": "Calcular",
+    "calculationTypeLabel": {
+      "countEmptyShort": "VAZIO"
+    }
   },
   "document": {
     "menuName": "Documento",
     "date": {
-      "timeHintTextInTwelveHour": "01:00 PM",
+      "timeHintTextInTwelveHour": "13:00",
       "timeHintTextInTwentyFourHour": "13:00"
     },
     "slashMenu": {
@@ -892,7 +899,8 @@
       },
       "image": {
         "copiedToPasteBoard": "O link da imagem foi copiado para a área de transferência",
-        "addAnImage": "Adicione uma imagem"
+        "addAnImage": "Adicione uma imagem",
+        "imageUploadFailed": "Falha no upload da imagem"
       },
       "urlPreview": {
         "copiedToPasteBoard": "O link foi copiado para a área de transferência"
