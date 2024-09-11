@@ -500,7 +500,10 @@
       },
       "showNamingDialogWhenCreatingPage": "Mostrar caixa de diálogo de nomenclatura ao criar uma página",
       "members": {
-        "title": "Configurações de membros"
+        "title": "Configurações de membros",
+        "copyInviteLink": "Copiar link de convite",
+        "label": "Membros",
+        "emailInvalidError": "E-mail inválido, verifique e tente novamente"
       }
     },
     "files": {
