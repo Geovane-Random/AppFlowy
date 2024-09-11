@@ -366,6 +366,10 @@
       "workspaceName": {
         "title": "Nome do espaço de trabalho"
       },
+      "leaveWorkspacePrompt": {
+        "title": "Sair do espaço de trabalho",
+        "content": "Tem certeza de que deseja sair deste espaço de trabalho? Você perderá o acesso a todas as páginas e dados dentro dele."
+      },
       "manageWorkspace": {
         "leaveWorkspace": "Abandonar espaço de trabalho"
       }
