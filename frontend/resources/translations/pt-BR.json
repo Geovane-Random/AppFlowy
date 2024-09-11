@@ -436,7 +436,8 @@
       "resetSetting": "Redefinir esta configuração",
       "fontFamily": {
         "label": "Família de fontes",
-        "search": "Procurar"
+        "search": "Procurar",
+        "defaultFont": "Sistema"
       },
       "themeMode": {
         "label": "Tema",
@@ -497,7 +498,10 @@
         "twelveHour": "Doze horas",
         "twentyFourHour": "Vinte e quatro horas"
       },
-      "showNamingDialogWhenCreatingPage": "Mostrar caixa de diálogo de nomenclatura ao criar uma página"
+      "showNamingDialogWhenCreatingPage": "Mostrar caixa de diálogo de nomenclatura ao criar uma página",
+      "members": {
+        "title": "Configurações de membros"
+      }
     },
     "files": {
       "copy": "cópia de",
