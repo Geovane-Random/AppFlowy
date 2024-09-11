@@ -419,6 +419,7 @@
       "openHistoricalUser": "Clique para abrir a conta anônima",
       "customPathPrompt": "Armazenar a pasta de dados do @:appName em uma pasta sincronizada na nuvem, como o Google Drive, pode representar riscos. Se o banco de dados nesta pasta for acessado ou modificado de vários locais ao mesmo tempo, isso poderá resultar em conflitos de sincronização e possível corrupção de dados",
       "importAppFlowyData": "Importar dados da pasta @:appName externa",
+      "importingAppFlowyDataTip": "A importação de dados está em andamento. Não feche o aplicativo",
       "importAppFlowyDataDescription": "Copie dados de uma pasta de dados externa do @:appName e importe-os para a pasta de dados atual do @:appName",
       "importSuccess": "Importou com sucesso a pasta de dados do @:appName",
       "importFailed": "Falha ao importar a pasta de dados do @:appName",
