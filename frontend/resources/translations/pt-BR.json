@@ -1061,7 +1061,13 @@
       "today": "Hoje",
       "jumpToday": "Pular para hoje",
       "previousMonth": "Mês anterior",
-      "nextMonth": "Próximo mês"
+      "nextMonth": "Próximo mês",
+      "views": {
+        "day": "Dia",
+        "week": "Semana",
+        "month": "Mês",
+        "year": "Ano"
+      }
     },
     "settings": {
       "showWeekNumbers": "Mostrar números da semana",
@@ -1076,7 +1082,8 @@
       "noDateHint": "Eventos não agendados aparecerão aqui"
     },
     "referencedCalendarPrefix": "Vista de",
-    "quickJumpYear": "Ir para"
+    "quickJumpYear": "Ir para",
+    "duplicateEvent": "Evento duplicado"
   },
   "errorDialog": {
     "title": "Erro do @:appName",
