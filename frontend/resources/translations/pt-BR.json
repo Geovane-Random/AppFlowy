@@ -1170,7 +1170,20 @@
     "includeTime": "Incluir tempo",
     "isRange": "Data final",
     "timeFormat": "Formato de hora",
-    "clearDate": "Limpar data"
+    "clearDate": "Limpar data",
+    "reminderOptions": {
+      "fiveMinsBefore": "5 minutos antes",
+      "tenMinsBefore": "10 minutos antes",
+      "fifteenMinsBefore": "15 minutos antes",
+      "thirtyMinsBefore": "30 minutos antes",
+      "oneHourBefore": "1 hora antes",
+      "twoHoursBefore": "2 horas antes",
+      "onDayOfEvent": "No dia do evento",
+      "oneDayBefore": "1 dia antes",
+      "twoDaysBefore": "2 dias antes",
+      "oneWeekBefore": "1 semana antes",
+      "custom": "Customizado"
+    }
   },
   "relativeDates": {
     "yesterday": "Ontem",
@@ -1217,7 +1230,8 @@
     "replace": "Substituir",
     "replaceAll": "Substituir tudo",
     "noResult": "Nenhum resultado",
-    "caseSensitive": "Sensível a maiúsculas e minúsculas"
+    "caseSensitive": "Sensível a maiúsculas e minúsculas",
+    "searchMore": "Buscar por mais resultados"
   },
   "error": {
     "weAreSorry": "Nós lamentamos",
